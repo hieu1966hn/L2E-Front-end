@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-0 bg-[#18191A] text-gray-100;
+}
+
+#root {
+  @apply flex justify-center mx-2 md:mx-6;
+}
+
+tr td:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+tr td:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+tr td {
+  @apply bg-[#242526] drop-shadow-md shadow-white;
+}
